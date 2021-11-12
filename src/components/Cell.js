@@ -24,6 +24,7 @@ const Cell = (props) => {
 
     const onDoubleClicked = (e) => {
         if (props.x === 0 || props.y === 0) return;
+        setValue(props.value);
         setEditing(true);
     }
 
