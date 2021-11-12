@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid black;
+}
+
+table td {
+  width: 100px;
+}
+
+table {
+  border-collapse: collapse;
+}
